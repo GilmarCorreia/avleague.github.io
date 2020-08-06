@@ -1,0 +1,61 @@
+pt: 
+  - title: "Primeiros Passos"
+    url: /pt/primeiros-passos/pre-requisitos/
+  - title: "Notícias"
+    url: /pt/pages/noticias/
+  - title: "Competição"
+    url: /pt/categorias/
+  - title: "Sobre Nós"
+    url: /pt/sobre-nos/
+  - title: "Contato"
+    url: /pt/contato/
+
+primeiros-passos:
+  - title: "Primeiros Passos"
+    children:
+      - title: "Pré-requisitos"
+        url: /pt/primeiros-passos/pre-requisitos/
+      - title: "Instalação"
+        url: /pt/primeiros-passos/instalacao/
+      - title: "Guia Inicial"
+        url: /pt/primeiros-passos/guia/
+  - title: Docs API
+    children:
+      - title: "Referências"
+        url: /pt/primeiros-passos/referencias/
+
+categorias:
+  - title: "Categorias"
+    url: /pt/categorias/
+    children:
+      - title: "SSDC"
+        url: /pt/categorias/ssdc/
+
+en: 
+  - title: "Getting Started"
+    url: /en/getting-started/prerequisites/
+  - title: "News"
+    url: /en/pages/news/
+  - title: "Competition"
+    url: /en/categories/
+  - title: "About Us"
+    url: /en/about-us/
+  - title: "Contact"
+    url: /en/contact/
+
+getting-started:
+  - title: Getting Started
+    children:
+      - title: "Prerequisites"
+        url: /en/getting-started/prerequisites/
+      - title: "Installation"
+        url: /en/getting-started/installation/
+      - title: "Quick-Start Guide"
+        url: /en/getting-started/quick/
+  - title: API Docs
+    children:
+      - title: "References"
+        url: /en/getting-started/references/
+
+contact:
+  - title: Teste
