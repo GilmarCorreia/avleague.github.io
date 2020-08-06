@@ -17,7 +17,7 @@ Para executar a aplicação serão necessários a instalação do **Anaconda** e
  - Baixar o [Anaconda](https://www.anaconda.com/products/individual) de acordo com os requisitos de sua máquina.
  - Baixar o [7-Zip](https://www.7-zip.org/download.html).
  - Baixar o [Git-Bash](https://gitforwindows.org/).
- - Baixar o [*release*](https://github.com/SIR-research/AVL/releases) mais recente do simulador. 
+ - Baixar o [*release*](https://github.com/avleague/AVSim/releases) mais recente do simulador. 
 
 O *release* do simulador busca ser o mais completo e estável possível, assim recomendamos que realize o *download* do mesmo. Nesse arquivo encontrará:
  - Os arquivos do simulador (API).
@@ -196,7 +196,7 @@ A configuração para o ambiente MacOS está sendo desenvolvida, acompanhe atual
 É possível clonar o repositório, mas devido aos limites de transferência do *GitHub* o repositório não apresenta os ambientes de simulação, <span style="color:red">sendo de responsabilidade do usuário</span> baixar os ambientes configurados com o AirSim. Os mesmos podem ser encontrados [aqui](https://github.com/microsoft/AirSim/releases). Para clonar o repositório, execute o **Git-Bash** e direcione o ambiente para o diretório desejado de sua máquina utilizando o comando *cd* e *ls*. Após digite o seguinte código no terminal:
 
 ```
-git clone https://github.com/SIR-research/AVL.git
+git clone https://github.com/avleague/AVSim.git
 ```
 
 As versões de arquivos que se encontram no repositório (*branch master*) da competição serão utilizados para atualização interna e testes de novos comandos do simulador, assim novamente, recomendamos que utilizem os *releases*.

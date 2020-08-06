@@ -114,16 +114,16 @@ author:
   links:
     - label: "Autonomous Vehicle League"
       icon: "fas fa-fw fa-link"
-      url: "https://sir-research.github.io/AVL/"
+      url: "https://github.com/avleague"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/avleague"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/sir-research/"
+      url: "https://github.com/avleague"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/sir.research"
+      url: "https://github.com/avleague"
 
 
 # Site Footer
@@ -131,13 +131,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/avleague"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/sir-research/"
+      url: "https://github.com/avleague"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/sir.research"
+      url: "https://github.com/avleague"
 
 
 # Reading Files
