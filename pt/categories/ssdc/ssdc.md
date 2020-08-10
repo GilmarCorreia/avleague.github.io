@@ -41,6 +41,6 @@ A participação da equipe na competição é garantida exclusivamente para as e
 
  - As equipes devem submeter o algorítmo até o dia 14 de Setembro de 2020;
 
- - As execuções da competição serão realizadas em um computador que atende as [especificações recomendadas](/AVL/pt/primeiros-passos/pre-requisitos/#1-especificações-de-hardware-recomendada).
+ - As execuções da competição serão realizadas em um computador que atende as [especificações recomendadas](/pt/primeiros-passos/pre-requisitos/#1-especificações-de-hardware-recomendada).
 
  - Que vença o melhor! :)
