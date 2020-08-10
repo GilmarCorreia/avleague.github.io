@@ -8,4 +8,4 @@ sidebar:
     nav: "categorias"
 ---
 
- - [Simulated Self-Driving Car - SSDC-I](/AVL/pt/categorias/ssdc) 
+ - [Simulated Self-Driving Car (SSDC-I)](/pt/categorias/ssdc) 

@@ -23,7 +23,7 @@ O *release* do simulador busca ser o mais completo e estável possível, assim r
  - Os arquivos do simulador (API).
  - Os ambientes de simulação recomendados.
 
-Os procedimentos a seguir serão específicos para configurar a execução do ambiente *conda* para programação do veículo autônomo. Quaisquer dúvidas, fiquem a vontade para entrar em [contato](/AVL/pt/contato/).
+Os procedimentos a seguir serão específicos para configurar a execução do ambiente *conda* para programação do veículo autônomo. Quaisquer dúvidas, fiquem a vontade para entrar em [contato](/pt/contato/).
 
 ***
 # 1. Windows
@@ -98,7 +98,7 @@ Importe os arquivos *Tournament.py* e *TeamsMethods.py* da pasta *files* e *Run.
 	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav6.png" alt="conda_nav6" title="conda_nav6" />
 </a> 
 
-Com isso, seu PC pode começar a executar o simulador. Siga para a página [Guia Inicial](/AVL/pt/primeiros-passos/guia/) para configurar rodar os exemplos e programar seu próprio carro! 
+Com isso, seu PC pode começar a executar o simulador. Siga para a página [Guia Inicial](/pt/primeiros-passos/guia/) para configurar rodar os exemplos e programar seu próprio carro! 
 
 
 ### 1.1.2. Prompt de Comando
@@ -174,18 +174,18 @@ Importe os arquivos *Tournament.py* e *TeamsMethods.py* da pasta *files* e *Run.
 	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav6.png" alt="conda_nav6" title="conda_nav6" />
 </a> 
 
-Com isso, seu PC pode começar a executar o simulador. Siga para a página [Guia Inicial](/AVL/pt/primeiros-passos/guia/) para configurar rodar os exemplos e programar seu próprio carro! 
+Com isso, seu PC pode começar a executar o simulador. Siga para a página [Guia Inicial](/pt/primeiros-passos/guia/) para configurar rodar os exemplos e programar seu próprio carro! 
 
 ***
 # 2. Linux
 
-A configuração para o ambiente Linux está sendo desenvolvida, acompanhe atualizações na guia de [Notícias](/AVL/pages/news/).
+A configuração para o ambiente Linux está sendo desenvolvida, acompanhe atualizações na guia de [Notícias](/pages/news/).
 
 ***
 
 # 3. MacOS
 
-A configuração para o ambiente MacOS está sendo desenvolvida, acompanhe atualizações na guia de [Notícias](/AVL/pages/news/).
+A configuração para o ambiente MacOS está sendo desenvolvida, acompanhe atualizações na guia de [Notícias](/pages/news/).
 
 ***
 

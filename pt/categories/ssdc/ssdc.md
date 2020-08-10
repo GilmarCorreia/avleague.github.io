@@ -20,7 +20,7 @@ As equipes devem ser registradas através do [formulário de inscrição]().
 
 A participação da equipe na competição é garantida exclusivamente para as equipes que seguirem as regras da competição. As regras são listadas abaixo.
 
- - A instalação do simulador deve ser feita exclusivamente como descrito na [seção de instalação](/AVL/pt/primeiros-passos/instalacao);
+ - A instalação do simulador deve ser feita exclusivamente como descrito na [seção de instalação](/pt/primeiros-passos/instalacao);
 
  - O veículo deve permanecer dentro da via, defida pela guia e pela sinalização de trânsito (faixa que separa as vias);
 

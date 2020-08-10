@@ -36,7 +36,7 @@ feature_row:
     alt: "posto"
     title: "Lá no posto GitHub"
     excerpt: "Não seja tímido e tire suas dúvidas sobre o simulador. Lá terá completo suporte da nossa equipe."
-    url: "https://github.com/SIR-research/AVL/issues"
+    url: "https://github.com/avleague/AVSim/issues"
     btn_label: "Acompanhe"
     btn_class: "btn--primary"
 ---
