@@ -117,11 +117,33 @@ A classe *Tournament* controla os parâmetros para lançar o ambiente de simula�
 
 
 
-## 1.1 Team1.py
+### 1.1.3 Pasta Teams 
+
+#### 1.1.3.1 Team1.py
 
 Team1.py é um código que executa três processos em paralelo para o controle do carro. Esses processos são dividos em Controle Lateral
 
+#### 1.1.3.2 Team2.py
 
+#### 1.1.3.3 TeamDefault.py
+
+#### 1.1.3.4 Crie Seu Próprio Time
+
+Para criar e executar seu código personalizado, faça uma cópia do arquivo *TeamDefault.py* na pasta /AVL/Teams/. Coloque o nome do seu Time no nome do arquivo, substituindo *TeamDefault.py* por *SeuNome.py*
+
+Abra o arquivo *SeuNome.py* e *__init__.py* com qualquer editor de texto. Recomendamos que utilize o Spyder, já instalado no ambiente AVL do conda. Altere o seguinte código, substituindo *TeamDefault* por *SeuNome*
+
+```python
+class SeuNome(TeamsMethods,object):
+```
+
+Acrescente *SeuNome* no arquivo *__init__.py*:
+
+```python
+__all__ = ['Team1','Team2', 'TeamDefault', 'SeuNome']
+```
+
+Execute o AVSim novamente. Realizando os passos iniciais.
 --- 
 
 # 1. OUTPUT CONTROLS
