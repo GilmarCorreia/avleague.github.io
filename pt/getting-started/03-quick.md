@@ -14,14 +14,14 @@ toc_icon: "cog"
 
 Após realizado as configurações necessárias para inicializar o simulador, será possível programar o seu próprio carro autônomo. Abra a pasta descompactada da AVL:
 
-<a href="{{ site.baseurl }}/assets/images/getting-started/quick/cmd_1.png">
-	<img src="{{ site.baseurl }}/assets/images/getting-started/quick/cmd_1.png" alt="cmd_1" title="cmd_1" />
+<a href="{{ site.baseurl }}/assets/images/getting-started/quick/cmd1.png">
+	<img src="{{ site.baseurl }}/assets/images/getting-started/quick/cmd1.png" alt="cmd1" title="cmd1" />
 </a>
 
 Clique duas vezes no caminho da pasta, apague as informações, digite cmd e aperte enter. Isso abrirá um prompt de comando na pasta AVL:
 
-<a href="{{ site.baseurl }}/assets/images/getting-started/quick/cmd_2.png">
-	<img src="{{ site.baseurl }}/assets/images/getting-started/quick/cmd_2.png" alt="cmd_2" title="cmd_2" />
+<a href="{{ site.baseurl }}/assets/images/getting-started/quick/cmd2.png">
+	<img src="{{ site.baseurl }}/assets/images/getting-started/quick/cmd2.png" alt="cmd2" title="cmd2" />
 </a>
 
 Copie o seguinte código para o Prompt e aperte Enter: 
@@ -29,8 +29,8 @@ Copie o seguinte código para o Prompt e aperte Enter:
 conda activate avl
 ```
 
-<a href="{{ site.baseurl }}/assets/images/getting-started/quick/cmd_3.png">
-	<img src="{{ site.baseurl }}/assets/images/getting-started/quick/cmd_3.png" alt="cmd_3" title="cmd_3" />
+<a href="{{ site.baseurl }}/assets/images/getting-started/quick/cmd3.png">
+	<img src="{{ site.baseurl }}/assets/images/getting-started/quick/cmd3.png" alt="cmd3" title="cmd3" />
 </a>
 
 Agora, copie e cole o seguinte código para executar o AVSim
@@ -38,8 +38,8 @@ Agora, copie e cole o seguinte código para executar o AVSim
 python AVSim.py
 ```
 
-<a href="{{ site.baseurl }}/assets/images/getting-started/quick/cmd_4.png">
-	<img src="{{ site.baseurl }}/assets/images/getting-started/quick/cmd_4.png" alt="cmd_4" title="cmd_4" />
+<a href="{{ site.baseurl }}/assets/images/getting-started/quick/cmd4.png">
+	<img src="{{ site.baseurl }}/assets/images/getting-started/quick/cmd4.png" alt="cmd4" title="cmd4" />
 </a>
 
 Com isso, o AVSim estará ativado. Toda vez que for rodar o simulador, lembre-se de executar esses passos anteriores.
