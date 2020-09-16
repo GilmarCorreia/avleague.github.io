@@ -14,16 +14,16 @@ toc_icon: "cog"
 
 Para executar a aplicação serão necessários a instalação do **Anaconda** e dos pacotes liberados nos *releases* da página do GitHub da AVL. Recomendamos também a instalação do **7-Zip** para extrair os arquivos do simulador e do **Git-Bash** para trabalhar com controle de versionamento de arquivos.
 
- - Baixar o [Anaconda](https://www.anaconda.com/products/individual) de acordo com os requisitos de sua máquina.
- - Baixar o [7-Zip](https://www.7-zip.org/download.html).
- - Baixar o [Git-Bash](https://gitforwindows.org/).
- - Baixar o [*release*](https://github.com/avleague/AVSim/releases) mais recente do simulador. 
+ - Baixar o <a href = "https://www.anaconda.com/products/individual" target="_blank" title="Anaconda">Anaconda</a> de acordo com os requisitos de sua máquina.
+ - Baixar o <a href = "https://www.7-zip.org/download.html" target="_blank" title="7-Zip">7-Zip</a>.
+ - Baixar o <a href = "https://gitforwindows.org/" target="_blank" title="Git-Bash">Git-Bash</a>.
+ - Baixar o <a href = "https://github.com/avleague/AVSim/releases" target="_blank" title="AVSim">*release*</a> mais recente do AVSim. 
 
 O *release* do simulador busca ser o mais completo e estável possível, assim recomendamos que realize o *download* do mesmo. Nesse arquivo encontrará:
  - Os arquivos do simulador (API).
  - Os ambientes de simulação recomendados.
 
-Os procedimentos a seguir serão específicos para configurar a execução do ambiente *conda* para programação do veículo autônomo. Quaisquer dúvidas, fiquem a vontade para entrar em [contato](/pt/contato/).
+Os procedimentos a seguir serão específicos para configurar a execução do ambiente *conda* para programação do veículo autônomo. Quaisquer dúvidas, fiquem a vontade para entrar em <a href = "/pt/contato/" target="_blank" title="Contato">contato</a>.
 
 ***
 # 1. Windows
@@ -34,19 +34,19 @@ Baixe os arquivos dos *releases* compactados, e coloque-os em um diretório onde
 	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/releases.png" alt="releases" title="releases" />
 </a>
 
-Extraia os arquivos: 
+Os arquivos representam uma única pasta, dividida em alguns zips. Com o 7-Zip, selecione todos os arquivos e extraia a pasta, como exemplo da Figura abaixo: 
 
 <a href="{{ site.baseurl }}/assets/images/getting-started/installation/zip.png">
 	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/zip.png" alt="zip" title="zip" />
 </a>
 
-Entre na pasta \AVL\Unreal Environments\SimpleMaze\ e clique duas vezes no arquivo *run.bat*. Ele rodará um ambiente desenvolvido na Unreal Engine em baixa resolução:
+Entre na pasta \AVL\UnrealEnvironments\SimpleMaze\ e clique duas vezes no arquivo *run.bat*. Ele rodará um ambiente desenvolvido na Unreal Engine em baixa resolução:
 
 <a href="{{ site.baseurl }}/assets/images/getting-started/installation/run_bat.png">
 	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/run_bat.png" alt="run_bat" title="run_bat" />
 </a>
 
-Copie o arquivo *settings.json* da pasta \AVL\json\ e substitua na pasta C:\Users\\$Nome do Usuário$\Documents\AirSim\
+Feche a Unreal e copie o arquivo *settings.json* da pasta \AVL\json\ e substitua na pasta C:\Users\\$Nome do Usuário\$\Documents\AirSim\
 
 <a href="{{ site.baseurl }}/assets/images/getting-started/installation/json.png">
 	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/json.png" alt="json" title="json" />
@@ -54,7 +54,7 @@ Copie o arquivo *settings.json* da pasta \AVL\json\ e substitua na pasta C:\User
 
 ## 1.1. Configurando o Ambiente do Conda
 
-A configuração do ambiente serve especificamente para utilizar as mesmas versões de pacotes tanto do conda quanto do python. Isso garantirá que execute exatamente as mesmas versões que nós em sua máquina. Para isso, pode ser utilizado dois métodos para essa configuração, o pelo Anaconda Navigator na Seção 1.1.1, e pelo próprio prompt de comando do Windows na Seção 1.1.2. A instalação por um dos métodos já é suficiente, então, escolha com sabedoria. :) 
+A configuração do ambiente serve especificamente para utilizar as mesmas versões de pacotes tanto do conda quanto do python. Isso garantirá que execute exatamente as mesmas versões que nós em sua máquina. Para isso, pode ser utilizado dois métodos para essa configuração, o pelo Anaconda Navigator na <a href="#111-anaconda-navigator" target = "_blank" title="Instalação pelo Anaconda Navigator">Seção 1.1.1</a>, e pelo próprio prompt de comando do Windows na <a href="#112-prompt-de-comando" target = "_blank" title="Instalação pelo CMD">Seção 1.1.2</a>. A instalação por um dos métodos já é suficiente, então, escolha com sabedoria. :) 
 
 É importante ressaltar que o Anaconda deve estar atualizado para sua última versão!
 
@@ -78,27 +78,7 @@ Clique no ícone da pasta e localize o arquivo avl.yml, ele se encontra no diret
 	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav3.png" alt="conda_nav3" title="conda_nav3" />
 </a> 
 
-O processo demora alguns minutos, então aproveite para tomar o seu chá/café preferido.
-
-Após terminado, clique na aba *Home* do Anaconda Navigator e confira se o **ambiente selecionado é o AVL**. Com isso, podemos executar o Spyder:
-
-<a href="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav4.png">
-	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav4.png" alt="conda_nav4" title="conda_nav4" />
-</a> 
-
-Com o Spyder rodando, clique na pasta para importar os arquivos:
-
-<a href="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav5.png">
-	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav5.png" alt="conda_nav5" title="conda_nav5" />
-</a> 
-
-Importe os arquivos *Tournament.py* e *TeamsMethods.py* da pasta *files* e *Run.py* do diretório principal:
-
-<a href="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav6.png">
-	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav6.png" alt="conda_nav6" title="conda_nav6" />
-</a> 
-
-Com isso, seu PC pode começar a executar o simulador. Siga para a página [Guia Inicial](/pt/primeiros-passos/guia/) para configurar rodar os exemplos e programar seu próprio carro! 
+O processo demora alguns minutos, então aproveite para tomar o seu chá/café preferido. Com isso, seu PC pode começar a executar o AVSim. Siga para a página [Guia Inicial](/pt/primeiros-passos/guia/) para configurar rodar os exemplos e programar seu próprio carro! 
 
 
 ### 1.1.2. Prompt de Comando
@@ -159,22 +139,9 @@ Digite o seguinte código no Prompt:
 
 ```
 conda activate avl
-spyder
 ```
 
-Com isso, executaremos o Spyder. Com o Spyder rodando, clique na pasta para importar os arquivos:
-
-<a href="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav5.png">
-	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav5.png" alt="conda_nav5" title="conda_nav5" />
-</a> 
-
-Importe os arquivos *Tournament.py* e *TeamsMethods.py* da pasta *files* e *Run.py* do diretório principal:
-
-<a href="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav6.png">
-	<img src="{{ site.baseurl }}/assets/images/getting-started/installation/conda_nav6.png" alt="conda_nav6" title="conda_nav6" />
-</a> 
-
-Com isso, seu PC pode começar a executar o simulador. Siga para a página [Guia Inicial](/pt/primeiros-passos/guia/) para configurar rodar os exemplos e programar seu próprio carro! 
+Com isso, seu PC pode começar a executar o AVSim. Siga para a página [Guia Inicial](/pt/primeiros-passos/guia/) para configurar rodar os exemplos e programar seu próprio carro! 
 
 ***
 # 2. Linux
